@@ -93,8 +93,6 @@ int main()
         scanf("%d", &newNode->num);
         newNode->next = NULL;
     }
-    
-
     printList(head);
 
     insertNode(&head, 3, 40);
